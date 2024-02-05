@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="error" name="WorldServer" packages="">
+  <Appenders>
+    <RollingFile name="RollingFile" fileName="./../logs/${sys:atavism.worldname}/${sys:atavism.loggername}.log"
+                 filePattern="./../logs/${sys:atavism.worldname}/${sys:atavism.loggername}-%i.log.gz"
+                 append="false">
+      <PatternLayout>
+        <Pattern>%-5p [%d{ISO8601}] %-13c{1.} %-20t %m%n </Pattern>
+      </PatternLayout>
+      <Policies>
+        <SizeBasedTriggeringPolicy size="150 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="10">
+        <fileIndex>min</fileIndex>
+	<min>1</min>
+      <compressionLevel>1</compressionLevel>
+      </DefaultRolloverStrategy>
+    </RollingFile>
+    <RollingFile name="RollingFileError" fileName="./../logs/${sys:atavism.worldname}/${sys:atavism.loggername}-error.log"
+                 filePattern="./../logs/${sys:atavism.worldname}/${sys:atavism.loggername}-error-%i.log.gz">
+      <PatternLayout>
+        <Pattern>%-5p [%d{ISO8601}] %-13c{1.} %-20t %m%n </Pattern>
+      </PatternLayout>
+      <Policies>
+        <SizeBasedTriggeringPolicy size="150 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="10">
+      <fileIndex>min</fileIndex>
+      <min>1</min>
+      <compressionLevel>1</compressionLevel>
+      </DefaultRolloverStrategy>
+    </RollingFile>
+  </Appenders>
+  <Loggers>
+    <Root level="all">
+      <AppenderRef ref="RollingFile"/>
+      <AppenderRef ref="RollingFileError" level="error"/>
+    </Root>
+  </Loggers>
+</Configuration>

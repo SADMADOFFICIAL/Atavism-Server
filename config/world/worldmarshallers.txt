@@ -1,0 +1,239 @@
+
+# CombatClient messages
+#atavism.agis.plugins.CombatClient$returnSpawnMessage
+#atavism.agis.plugins.CombatClient$ChargeMessage
+atavism.agis.plugins.CombatClient$SetCombatInfoStateMessage
+atavism.agis.plugins.CombatClient$QuestMobDeath
+atavism.agis.plugins.CombatClient$abilityUsedMessage
+atavism.agis.plugins.CombatClient$stopAutoAttackMessage
+atavism.agis.plugins.CombatClient$TargetTypeMessage
+atavism.agis.plugins.CombatClient$interruptAbilityMessage
+atavism.agis.plugins.CombatClient$CombatLogoutMessage
+atavism.agis.plugins.CombatClient$FactionUpdateMessage
+atavism.agis.plugins.CombatClient$getAoeTargetsMessage
+atavism.agis.plugins.CombatClient$updateActionBarMessage
+atavism.agis.plugins.CombatClient$applyEffectMessage
+atavism.agis.plugins.CombatClient$removeEffectMessage
+atavism.agis.plugins.CombatClient$alterExpMessage
+atavism.agis.plugins.CombatClient$updateBreathStatusMessage
+atavism.agis.plugins.CombatClient$updateFatigueStatusMessage
+atavism.agis.plugins.CombatClient$GetPlayerStatValueMessage
+atavism.agis.plugins.CombatClient$AutoAttackCompletedMessage
+atavism.agis.plugins.CombatClient$AlterThreatMessage
+atavism.agis.plugins.CombatClient$GetCombatObjectParamsMessage
+atavism.agis.plugins.CombatClient$SetCombatObjectParamsMessage
+atavism.agis.plugins.CombatClient$ModifyStatsMessage
+atavism.agis.plugins.CombatClient$DelModifyStatsMessage
+atavism.agis.plugins.CombatClient$SetWmgrStatsMessage
+atavism.agis.plugins.CombatClient$ResetAttacterMessage
+
+
+# BGClient messages
+#atavism.agis.plugins.BGClient2$addPlayerMessage
+#atavism.agis.plugins.BGClient2$removePlayerMessage
+#atavism.agis.plugins.BGClient2$BGScoreMessage
+#atavism.agis.plugins.BGClient2$GuardianDamagedMessage
+#atavism.agis.plugins.BGClient2$FlagCapturedMessage
+#atavism.agis.plugins.BGClient2$addPlayerMessage
+#atavism.agis.plugins.BGClient2$removePlayerMessage
+
+# PetPlugin messages
+#atavism.agis.plugins.PetClient$CreatePetMessage
+#atavism.agis.plugins.PetClient$petFollowMessage
+#atavism.agis.plugins.PetClient$petCommandMessage
+#atavism.agis.plugins.PetClient$petChatMessage
+
+# PlayerStructures messages
+#atavism.agis.plugins.PlayerStructuresClient$createStructureMessage
+
+# CTFClient messages
+
+#atavism.agis.plugins.CTFClient$UpdateHolderMessage
+#atavism.agis.plugins.CTFClient$GuardianDamagedMessage
+#atavism.agis.plugins.CTFClient$FlagReturnedMessage
+#atavism.agis.plugins.CTFClient$FlagCapturedMessage
+#atavism.agis.plugins.CTFClient$addPlayerMessage
+#atavism.agis.plugins.CTFClient$removePlayerMessage
+
+# GuildClient messages
+#atavism.agis.plugins.GuildClient$CreateGuildMessage
+#atavism.agis.plugins.GuildClient$guildCommandMessage
+#atavism.agis.plugins.GuildClient$guildChatMessage
+
+# Escort Quest messages
+#atavism.agis.objects.EscortQuestState2
+#atavism.agis.objects.EscortQuestState2$EscortGoalStatus
+#atavism.agis.objects.EscortQuest
+#atavism.agis.objects.EscortQuest$EscortGoal
+
+# Quest Messages
+atavism.agis.plugins.QuestClient$OfferQuestMessage
+atavism.agis.plugins.QuestClient$StartQuestMessage
+atavism.agis.plugins.QuestClient$CanPlayerStartQuestMessage
+atavism.agis.plugins.QuestClient$GetQuestItemReqsMessage
+atavism.agis.plugins.QuestClient$QuestItemUpdateMessage
+atavism.agis.plugins.QuestClient$TaskUpdateMessage
+atavism.agis.plugins.QuestClient$RequestQuestProgressMessage
+atavism.agis.plugins.QuestClient$CompleteQuestMessage
+atavism.agis.plugins.QuestClient$ConcludeUpdateMessage
+atavism.agis.plugins.QuestClient$AbandonQuestMessage
+
+# Agis Inventory Messages
+atavism.agis.plugins.AgisInventoryClient$countGenericItemMessage
+atavism.agis.plugins.AgisInventoryClient$itemPropertyMessage
+atavism.agis.plugins.AgisInventoryClient$ItemAcquiredStatusMessage
+atavism.agis.plugins.AgisInventoryClient$ItemEquipStatusMessage
+atavism.agis.plugins.AgisInventoryClient$RequestOpenMobMessage
+atavism.agis.plugins.AgisInventoryClient$removeSpecificItemMessage
+atavism.agis.plugins.AgisInventoryClient$removeGenericItemMessage
+atavism.agis.plugins.AgisInventoryClient$getSpecificItemDataMessage
+atavism.agis.plugins.AgisInventoryClient$getGenericItemDataMessage
+atavism.agis.plugins.AgisInventoryClient$generateItemMessage
+atavism.agis.plugins.AgisInventoryClient$placeBagMessage
+atavism.agis.plugins.AgisInventoryClient$moveBagMessage
+atavism.agis.plugins.AgisInventoryClient$removeBagMessage
+atavism.agis.plugins.AgisInventoryClient$lootItemMessage
+atavism.agis.plugins.AgisInventoryClient$lootAllMessage
+atavism.agis.plugins.AgisInventoryClient$generateLootMessage
+atavism.agis.plugins.AgisInventoryClient$getLootListMessage
+atavism.agis.plugins.AgisInventoryClient$getMerchantListMessage
+atavism.agis.plugins.AgisInventoryClient$purchaseItemFromMerchantMessage
+atavism.agis.plugins.AgisInventoryClient$QuestItemsListMessage
+atavism.agis.plugins.AgisInventoryClient$SendInventoryUpdateMessage
+atavism.agis.plugins.AgisInventoryClient$sendPurchaseMailMessage
+atavism.agis.plugins.AgisInventoryClient$checkCurrencyMessage
+atavism.agis.plugins.AgisInventoryClient$alterCurrencyMessage
+atavism.agis.plugins.AgisInventoryClient$CheckComponentMessage
+atavism.agis.plugins.AgisInventoryClient$EquippedItemUsedMessage
+atavism.agis.plugins.AgisInventoryClient$CreateStorageMessage
+atavism.agis.plugins.AgisInventoryClient$OpenStorageMessage
+atavism.agis.plugins.AgisInventoryClient$GetStorageContentsMessage
+atavism.agis.plugins.AgisInventoryClient$DoesInventoryHasSufficientSpaceMessage
+atavism.agis.plugins.AgisInventoryClient$getItemMessage
+atavism.agis.plugins.AgisInventoryClient$equipItemMessage
+atavism.agis.plugins.AgisInventoryClient$unequipItemMessage
+
+# Class Ability Messages
+atavism.agis.plugins.ClassAbilityClient$levelChangeMessage
+atavism.agis.plugins.ClassAbilityClient$skillIncreasedMessage
+atavism.agis.plugins.ClassAbilityClient$skillDecreasedMessage
+atavism.agis.plugins.ClassAbilityClient$skillResetMessage
+# atavism.agis.plugins.ClassAbilityClient$skillPointsMessage
+atavism.agis.plugins.ClassAbilityClient$skillAlterCurrentMessage
+atavism.agis.plugins.ClassAbilityClient$skillGetMessage
+atavism.agis.plugins.ClassAbilityClient$GetPlayerSkillLevelMessage
+atavism.agis.plugins.ClassAbilityClient$LearnAbilityMessage
+atavism.agis.plugins.ClassAbilityClient$RewardExpForKillMessage
+atavism.agis.plugins.ClassAbilityClient$UnlearnAbilityMessage
+
+# ArenaClient messages
+atavism.agis.plugins.ArenaClient$getArenaStatsMessage
+atavism.agis.plugins.ArenaClient$removePlayerMessage
+atavism.agis.plugins.ArenaClient$arenaKillMessage
+atavism.agis.plugins.ArenaClient$dotScoreMessage
+atavism.agis.plugins.ArenaClient$startArenaCheckMessage
+atavism.agis.plugins.ArenaClient$addArenaCreatureMessage
+atavism.agis.plugins.ArenaClient$despawnGatesMessage
+atavism.agis.plugins.ArenaClient$endArenaMessage
+atavism.agis.plugins.ArenaClient$duelChallengeMessage
+atavism.agis.plugins.ArenaClient$duelChallengeAcceptMessage
+atavism.agis.plugins.ArenaClient$duelChallengeDeclineMessage
+atavism.agis.plugins.ArenaClient$duelChallengeDisconnectMessage
+atavism.agis.plugins.ArenaClient$duelChallengeRemoveMessage
+atavism.agis.plugins.ArenaClient$duelStartMessage
+atavism.agis.plugins.ArenaClient$duelDefeatMessage
+atavism.agis.plugins.ArenaClient$duelDisconnectMessage
+atavism.agis.plugins.ArenaClient$duelRemoveMessage
+atavism.agis.plugins.ArenaClient$removeEffectsMessage
+
+# Group Client
+atavism.agis.plugins.GroupClient$groupInviteByNameMessage
+atavism.agis.plugins.GroupClient$getPlayerByNameMessage
+atavism.agis.plugins.GroupClient$createGroupMessage
+atavism.agis.plugins.GroupClient$GetGroupMembersMessage
+atavism.agis.plugins.GroupClient$GroupMembersMessage
+#atavism.agis.plugins.GroupClient$guildClaimPermitionMessage
+
+# Agis Mob Client
+#atavism.server.plugins.InstanceClient$GetInstanceTemplateMessage
+atavism.agis.plugins.AgisMobClient$SpawnInstanceMobsMessage
+atavism.agis.plugins.AgisMobClient$SpawnMobMessage
+atavism.agis.plugins.AgisMobClient$spawnArenaCreatureMessage
+atavism.agis.plugins.AgisMobClient$spawnPetMessage
+atavism.agis.plugins.AgisMobClient$tameBeastMessage
+atavism.agis.plugins.AgisMobClient$petCommandUpdateMessage
+atavism.agis.plugins.AgisMobClient$sendPetCommandMessage
+atavism.agis.plugins.AgisMobClient$updatePetStatsMessage
+atavism.agis.plugins.AgisMobClient$petTargetLostMessage
+atavism.agis.plugins.AgisMobClient$targetInReactionRangeMessage
+atavism.agis.plugins.AgisMobClient$addTargetToCheckMessage
+atavism.agis.plugins.AgisMobClient$removeTargetToCheckMessage
+atavism.agis.plugins.AgisMobClient$getIslandsDataMessage
+atavism.agis.plugins.AgisMobClient$categoryUpdatedMessage
+atavism.agis.plugins.AgisMobClient$GetNpcInteractionsMessage
+atavism.agis.plugins.AgisMobClient$StartNpcInteractionMessage
+atavism.agis.plugins.AgisMobClient$DialogueOptionChosenMessage
+atavism.agis.plugins.AgisMobClient$InvalidPathMessage
+atavism.agis.plugins.AgisMobClient$DeleteSpawnGeneratorMessage
+
+# Faction Client
+atavism.agis.plugins.FactionClient$getAttitudeMessage
+atavism.agis.plugins.FactionClient$AlterReputationMessage
+
+# Agis Proxy Client
+# atavism.agis.plugins.AgisProxyClient$GetAllPlayerOIDsMessage
+
+# Agis World Manager Client
+atavism.agis.plugins.AgisWorldManagerClient$SetMovementStateMessage
+atavism.agis.plugins.AgisWorldManagerClient$WaterRegionTransitionMessage
+#atavism.agis.plugins.AgisWorldManagerClient$ChangeInstanceMessage
+atavism.agis.plugins.AgisWorldManagerClient$ReturnToLastInstanceMessage
+atavism.agis.plugins.AgisWorldManagerClient$ServerTimeMessage
+atavism.agis.plugins.AgisWorldManagerClient$CheckIfTargetsInAreaMessage
+atavism.agis.plugins.AgisWorldManagerClient$SpawnTrapMessage
+atavism.agis.plugins.AgisWorldManagerClient$RevivedMessage
+
+# Social Client
+#atavism.agis.plugins.SocialClient$ChannelChangeMessage
+atavism.agis.plugins.SocialClient$BlockListMessage
+
+# Data logger
+atavism.agis.plugins.DataLoggerClient$DataLogMessage
+atavism.agis.plugins.DataLoggerClient$CharacterCreatedMessage
+atavism.agis.plugins.DataLoggerClient$CharacterDeletedMessage
+atavism.agis.plugins.DataLoggerClient$LogEventMessage
+
+# Crafting Client
+atavism.agis.plugins.CraftingClient$CraftItemMessage
+atavism.agis.plugins.CraftingClient$CreateResourceNodeFromMobMessage
+atavism.agis.plugins.CraftingClient$DestroyMobResourceNodeMessage
+
+# Voxel Client
+atavism.agis.plugins.VoxelClient$GetBuildingTemplateMessage
+atavism.agis.plugins.VoxelClient$GetChestStorageOidMessage
+atavism.agis.plugins.VoxelClient$SendClaimUpdateMessage
+atavism.agis.plugins.VoxelClient$AddDynamicObjectMessage
+atavism.agis.plugins.VoxelClient$GetBuildingPositionMessage
+atavism.agis.plugins.VoxelClient$BuildingDamageMessage
+
+# Objects
+atavism.agis.objects.AgisStat
+atavism.agis.objects.Bag
+atavism.agis.objects.BuildObjectTemplate
+
+atavism.agis.objects.AgisItem 
+atavism.agis.objects.AgisObject
+atavism.agis.objects.TargetType
+
+# Bonuses
+atavism.agis.plugins.BonusClient$ExtendVipMessage
+atavism.agis.plugins.BonusClient$RemoveBonusMessage
+atavism.agis.plugins.BonusClient$AddBonusMessage
+atavism.agis.plugins.BonusClient$BonusesUpdateMessage
+atavism.agis.plugins.BonusClient$GlobalEventBonusesUpdateMessage
+# Achievements
+atavism.agis.plugins.AchievementsClient$RankingDataMessage
+# Weather
+atavism.agis.plugins.WeatherClient$SetWorldTimeMessage
+atavism.agis.plugins.WeatherClient$SetWeatherProfileMessage
+

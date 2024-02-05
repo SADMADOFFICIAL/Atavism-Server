@@ -1,0 +1,459 @@
+#
+### Licence Settings
+### You can find your Atavism Server Licence key by logging into the 
+### Atavism Online Account Management website: http://apanel.atavismonline.com
+### Or you can use your Unity Invoice ID if Atavism was purchased from the Unity Asset Store
+atavism.licence.email=[EMAIL]
+atavism.licence.key=[SERVERKEY]
+#
+### Core Server Settings
+atavism.servername=Local
+atavism.login.bindaddress=[DNSNAME]
+atavism.login.bindport=5042
+#
+### Server host names and ports
+atavism.msgsvr_hostname=localhost
+atavism.msgsvr_port=20377
+atavism.worldmgrport=5042
+### Proxy server settings.  To enable remote clients to connect, specify IP address or DNS hostname 
+atavism.proxy.bindaddress=[DNSNAME]
+atavism.proxy.bindport=5052
+atavism.proxy.externaladdress=[EXTERNALDNSNAME]
+# Id to determinate with server is running witch licence its  help see in graph
+atavism.proxy.id=1
+#
+### Voice server host and port number
+atavism.voiceserver=:same
+# atavism.voiceport=5051
+atavism.voiceport=5067
+#
+### Socket Policy
+atavism.flashpolicy.bindport=5041
+atavism.flashpolicy.bindaddress=localhost
+#
+### Prefab server
+atavism.prefab.bindport=5566
+###
+### Options for VoiceServer testing
+#
+### Should the voice plugin automatically create a positional and/or
+### non-positional voice group(s) with the specified numbers?
+atavism.precreated_positional_voice_group=1
+#atavism.precreated_nonpositional_voice_group=5
+#
+### Should it auto-create a nonpositional voice group because a client
+### connects with the number of a group and the group doesn't exist?
+#atavism.autocreate_referenced_voice_groups=true
+#
+###
+### Should the voice server record voices?
+###
+#atavism.record_voices=true
+#
+### Database settings
+### Use atavism.db_url property to use a specific JDBC URL.  If not specified, then 
+### the server constructs it in standard format from the other property values,
+### as follows jdbc://db_type/db_hostname/db_name
+atavism.db_type=mysql
+atavism.db_timezone=UTC
+atavism.db_driver=com.mysql.cj.jdbc.Driver
+atavism.db_name=atavism
+atavism.db_user=[USERNAME]
+atavism.db_password=[PASSWORD]
+atavism.db_hostname=localhost
+### atavism.db_url=jdbc:dbtype://hostName/databaseName
+#
+### Admin Database
+### If different_settings is false the server will ignore these settings except the db_name
+atavism.admin.db_differentsettings=false
+atavism.admin.db_driver=com.mysql.cj.jdbc.Driver
+atavism.admin.db_name=admin
+atavism.admin.db_user=[USERNAME]
+atavism.admin.db_password=[PASSWORD]
+atavism.admin.db_hostname=localhost
+#
+### Content Database
+### If different_settings is false the server will ignore these settings except the db_name
+atavism.content.db_differentsettings=false
+atavism.content.db_driver=com.mysql.cj.jdbc.Driver
+atavism.content.db_name=world_content
+atavism.content.db_user=[USERNAME]
+atavism.content.db_password=[PASSWORD]
+atavism.content.db_hostname=localhost
+#
+### Authentication Database
+### If different_settings is false the server will ignore these settings except the db_name
+atavism.auth.db_differentsettings=false
+atavism.auth.db_driver=com.mysql.cj.jdbc.Driver
+atavism.auth.db_name=master
+atavism.auth.db_user=[USERNAME]
+atavism.auth.db_password=[PASSWORD]
+atavism.auth.db_hostname=localhost
+#
+#
+#Path to JDBC driver JAR file
+### atavism.jdbcJarPath=../other/mysql-jdbc/mysql-connector-java-3.0.14-production-bin.jar
+atavism.jdbcJarPath=../other/mysql-connector-java-8.0.28.jar
+#
+atavism.service_endpoint=localhost
+atavism.service_user=mgttest
+atavism.service_password=mgttestpass
+#
+###
+### If worldname is changed you must copy folder AO_HOME/config/world to  AO_HOME/config/worldname
+### Example below is Windows path; On Linux/Unix, use forward slashes instead of double backslashes.
+atavism.worldname=world
+#
+###
+### The default log level of the server.
+###
+### AO-Level     log4j Level
+###   0           TRACE
+###   1           DEBUG
+###   2           INFO
+###   3           WARN
+###   4           ERROR
+###
+atavism.log_level=4
+#
+###
+### Rotate log files when server starts
+###
+atavism.rotate_logs_on_startup=true
+#
+###
+### Archive log files when server starts.  Logs are moved to directory
+### "<world-name>.old".  Should set rotate_logs_on_startup to false when
+### this option is true.
+###
+atavism.archive_logs_on_startup=true
+#
+###
+### Should old logs be deleted on startup?
+###
+#atavism.delete_logs_on_startup=true
+#
+###
+### Should we use class files from the /build hierarchy 
+### instead of the jar files from the /dist hierarchy?
+###
+#atavism.use_class_files=true
+#
+###
+### Should we log histograms of time-in-queue and processing time 
+### for proxy messages?  If so, what should the reporting interval
+### be?  (Defaults to 5000ms).
+###
+atavism.log_proxy_histograms=true
+#atavism.log_proxy_histograms_interval=5000
+#
+###
+### Should we log various RDP counters
+###
+atavism.log_rdp_counters=false
+#
+###
+### Should we log various VoicePlugin counters
+###
+atavism.log_voice_counters=true
+#
+###
+### The default when enabled is to log CPU times an interval of 
+### 5000 ms, at log_level 2, which is INFO
+###
+#atavism.cputime_logging_interval=5000,2
+#
+###
+### Log message agent statistics
+###
+#atavism.message_agent_stats=true
+#
+###
+### This number is the number of maximum milliseconds that the
+### packet aggregator will delay sending a packet in hopes that
+### more packets can be added to it.  By default, it is 25ms.
+### You can change the delay time, or disable packet aggregation 
+### by setting the aggregation interval is zero
+###
+#atavism.packet_aggregation_interval=0
+#
+###
+### Maximum geometry size for instances, in meters. This effects how small 
+### the quad tree nodes can get, larger geometry size results in larger
+### quad tree nodes. 
+###
+#atavism.geometry_min_x=-4999999
+#atavism.geometry_max_x=5000000
+#atavism.geometry_min_z=-4999999
+#atavism.geometry_max_z=5000000
+#
+###
+### Maximum objects per quad tree node before dividing.
+###
+atavism.quad_tree_node_max_objects=30
+#
+###
+### Maximum depth of the quad tree.  Should be less than 32.
+###
+atavism.quad_tree_max_depth=8
+#
+###
+### Message printed on console when the world is available.
+### The world is available when the "Domain" plugin dependency is
+### satisfied.
+###
+atavism.world_available_message = \u001B[32mDONE INITIALIZING, you can log in now\u001B[0m
+#
+### Specifies how long to wait for all plugin dependencies to be
+### resolved.  after waiting this period of time (in seconds),
+### if all dependencies have not been met, then we report an error message.
+#
+atavism.startup_timeout=300
+#
+###
+### Time in seconds that the server will wait for the rest of the servers to start
+###
+# 
+atavism.service_discovery_quiet_period_seconds=10
+#
+###
+### Thread Settings
+###
+### Number ot threads that is used by to simultaneous handle message (default 280)
+#atavism.<server type>.MessageIOExecutorThreadPoolSize=280
+#
+###
+### Number of the threads to handle message with order (default 10)
+#atavism.<server type>.MessageIOOrderedExecutorThreadPoolSize=10
+#
+###
+### Number of the threads to handle sheulers (default 15)
+#atavism.<server type>.ExecutorThreadPoolSize=15
+#
+###
+### Number of threads that is used to recive Incoming Messages (default 32)
+#atavism.<server type>.AgentDataThreadPoolSize=32
+#
+###
+### Number of threads that is used by Subscription Manager (default 16)
+#atavism.<server type>.SubscriptionManagerThreadPoolSize=16
+#
+###
+### Number of threads used to spawn from spawn data for instance (default 8)
+#atavism.<server type>.InstanceSpawnConcurrencyThreadPoolSize=8
+#
+###
+### Number of threads used by Spawn Generator (default 10)
+#atavism.<server type>.SpawnGeneratorThreadPoolSize=10
+#
+###
+### The default values were used on a machine with 32 Core and 128 GB Ram 
+### Settings below have been prepared for a machine with 4GB of RAM
+###
+#
+# Settings for Domain Server
+atavism.domain.AgentDataThreadPoolSize=5
+atavism.domain.Xms=1m
+atavism.domain.Xmx=200m
+#
+# Setting for World Manager server
+atavism.wmgr.MessageIOExecutorThreadPoolSize=40
+atavism.wmgr.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.wmgr.ExecutorThreadPoolSize=10
+atavism.wmgr.AgentDataThreadPoolSize=20
+atavism.wmgr.SubscriptionManagerThreadPoolSize=5
+atavism.wmgr.InstanceSpawnConcurrencyThreadPoolSize=5
+atavism.wmgr.SpawnGeneratorThreadPoolSize=5
+atavism.wmgr.Xms=1m
+atavism.wmgr.Xmx=200m
+#
+# Setting for Combat Server
+atavism.combat.MessageIOExecutorThreadPoolSize=40
+atavism.combat.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.combat.ExecutorThreadPoolSize=10
+atavism.combat.AgentDataThreadPoolSize=20
+atavism.combat.SubscriptionManagerThreadPoolSize=5
+atavism.combat.Xms=1m
+atavism.combat.Xmx=200m
+#
+# Settings for Instance Server
+atavism.instance.MessageIOExecutorThreadPoolSize=30
+atavism.instance.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.instance.ExecutorThreadPoolSize=10
+atavism.instance.AgentDataThreadPoolSize=10
+atavism.instance.SubscriptionManagerThreadPoolSize=5
+atavism.instance.Xms=1m
+atavism.instance.Xmx=200m
+#
+# Settings for Object Manager Server
+atavism.objmgr.MessageIOExecutorThreadPoolSize=30
+atavism.objmgr.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.objmgr.ExecutorThreadPoolSize=10
+atavism.objmgr.AgentDataThreadPoolSize=10
+atavism.objmgr.SubscriptionManagerThreadPoolSize=5
+atavism.objmgr.Xms=1m
+atavism.objmgr.Xmx=200m
+
+#
+# Settings for Login Manager Server
+atavism.login_manager.MessageIOExecutorThreadPoolSize=10
+atavism.login_manager.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.login_manager.ExecutorThreadPoolSize=10
+atavism.login_manager.AgentDataThreadPoolSize=10
+atavism.login_manager.SubscriptionManagerThreadPoolSize=5
+atavism.login_manager.Xms=1m
+atavism.login_manager.Xmx=200m
+#
+# Setting for Proxy server
+atavism.proxy.MessageIOExecutorThreadPoolSize=20
+atavism.proxy.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.proxy.ExecutorThreadPoolSize=10
+atavism.proxy.AgentDataThreadPoolSize=10
+atavism.proxy.SubscriptionManagerThreadPoolSize=5
+atavism.proxy.Xms=1m
+atavism.proxy.Xmx=200m
+#
+# Number of threads used to add messages to queue
+# MessageQueueThreadPoolSize default 64
+atavism.proxy.MessageQueueThreadPoolSize=10
+# Number of threads to handle messages in the queue
+# EventQueueThreadPoolSize default 32
+atavism.proxy.EventQueueThreadPoolSize=10
+# PacketQueueThreadPoolSize default 24
+atavism.PacketQueueThreadPoolSize=10
+# PacketResendThreadPoolSize default 8
+atavism.PacketResendThreadPoolSize=3
+#
+# Setting for Mob Server
+atavism.mobserver.MessageIOExecutorThreadPoolSize=60
+atavism.mobserver.MessageIOOrderedExecutorThreadPoolSize=10
+atavism.mobserver.ExecutorThreadPoolSize=10
+atavism.mobserver.AgentDataThreadPoolSize=10
+atavism.mobserver.SubscriptionManagerThreadPoolSize=5
+atavism.mobserver.InstanceSpawnConcurrencyThreadPoolSize=5
+atavism.mobserver.SpawnGeneratorThreadPoolSize=5
+atavism.mobserver.Xms=1m
+atavism.mobserver.Xmx=200m
+#
+# Settings for Quest Server
+atavism.quest.MessageIOExecutorThreadPoolSize=20
+atavism.quest.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.quest.ExecutorThreadPoolSize=10
+atavism.quest.AgentDataThreadPoolSize=20
+atavism.quest.SubscriptionManagerThreadPoolSize=5
+atavism.quest.Xms=1m
+atavism.quest.Xmx=200m
+#
+# Setting for Faction Server
+atavism.faction.MessageIOExecutorThreadPoolSize=10
+atavism.faction.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.faction.ExecutorThreadPoolSize=10
+atavism.faction.AgentDataThreadPoolSize=10
+atavism.faction.SubscriptionManagerThreadPoolSize=5
+atavism.faction.Xms=1m
+atavism.faction.Xmx=200m
+
+#
+# Settings for Arena Server
+atavism.arena.MessageIOExecutorThreadPoolSize=20
+atavism.arena.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.arena.ExecutorThreadPoolSize=10
+atavism.arena.AgentDataThreadPoolSize=10
+atavism.arena.SubscriptionManagerThreadPoolSize=5
+atavism.arena.Xms=1m
+atavism.arena.Xmx=200m
+#
+# Settings for Builder Server
+atavism.builder.MessageIOExecutorThreadPoolSize=20
+atavism.builder.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.builder.ExecutorThreadPoolSize=10
+atavism.builder.AgentDataThreadPoolSize=10
+atavism.builder.SubscriptionManagerThreadPoolSize=5
+atavism.builder.Xms=1m
+atavism.builder.Xmx=200m
+#
+# Settings for Auction Server
+atavism.auction.MessageIOExecutorThreadPoolSize=20
+atavism.auction.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.auction.ExecutorThreadPoolSize=10
+atavism.auction.AgentDataThreadPoolSize=10
+atavism.auction.SubscriptionManagerThreadPoolSize=5
+atavism.auction.Xms=1m
+atavism.auction.Xmx=200m
+#
+# Settings for Weather Server
+atavism.weather.MessageIOExecutorThreadPoolSize=20
+atavism.weather.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.weather.ExecutorThreadPoolSize=10
+atavism.weather.AgentDataThreadPoolSize=10
+atavism.weather.SubscriptionManagerThreadPoolSize=5
+atavism.weather.Xms=1m
+atavism.weather.Xmx=200m
+#
+# Settings for Chat Server
+atavism.chat.MessageIOExecutorThreadPoolSize=20
+atavism.chat.MessageIOOrderedExecutorThreadPoolSize=5
+atavism.chat.ExecutorThreadPoolSize=10
+atavism.chat.AgentDataThreadPoolSize=10
+atavism.chat.SubscriptionManagerThreadPoolSize=5
+atavism.chat.Xms=1m
+atavism.chat.Xmx=200m
+#
+# Settings for Prefab Server
+atavism.prefab_manager.MessageIOExecutorThreadPoolSize=1
+atavism.prefab_manager.MessageIOOrderedExecutorThreadPoolSize=1
+atavism.prefab_manager.ExecutorThreadPoolSize=1
+atavism.prefab_manager.AgentDataThreadPoolSize=16
+atavism.prefab_manager.SubscriptionManagerThreadPoolSize=16
+atavism.prefab_manager.Xms=1m
+atavism.prefab_manager.Xmx=300m
+#
+#
+###
+### Settings for All in One mode
+###
+#
+atavism.all_in_one.enabled=true
+atavism.all_in_one.MessageIOExecutorThreadPoolSize=60
+atavism.all_in_one.MessageIOOrderedExecutorThreadPoolSize=15
+atavism.all_in_one.ExecutorThreadPoolSize=50
+atavism.all_in_one.AgentDataThreadPoolSize=20
+atavism.all_in_one.SubscriptionManagerThreadPoolSize=5
+atavism.all_in_one.InstanceSpawnConcurrencyThreadPoolSize=5
+atavism.all_in_one.SpawnGeneratorThreadPoolSize=5
+#atavism.all_in_one.Xms=1m
+#atavism.all_in_one.Xmx=600m
+#
+#
+### Plugin type startup dependencies
+### Dependencies are expressed in terms of plugin types, not plugin names.
+### The dependency is satisfied when the expected number of plugins have
+### started.  The number of expected plugins is controlled by flags to
+### the DomainServer (see PLUGIN_TYPES in atavism.sh)
+###
+### Every plugin type should have a "plugin_dep" property, even if it
+### has no dependencies.
+atavism.plugin_dep.Login=ObjectManager,Instance
+atavism.plugin_dep.Instance=ObjectManager,Quest,MobManager,Inventory,WorldManager,Combat
+atavism.plugin_dep.Proxy=Instance
+atavism.plugin_dep.MobManager=ObjectManager,WorldManager,Inventory,Quest,Social
+atavism.plugin_dep.sampleworld.MobManager=ObjectManager,WorldManager,Inventory,Quest,Combat
+atavism.plugin_dep.ObjectManager=
+atavism.plugin_dep.WorldManager=Combat
+atavism.plugin_dep.Inventory=
+atavism.plugin_dep.Quest=
+atavism.plugin_dep.Trainer=
+atavism.plugin_dep.ClassAbility=
+atavism.plugin_dep.Combat=
+atavism.plugin_dep.Vendor=
+atavism.plugin_dep.Domain=Instance,Proxy
+atavism.plugin_dep.DataLogger=
+atavism.plugin_dep.Arena=
+atavism.plugin_dep.Social=
+atavism.plugin_dep.Voxel=
+atavism.plugin_dep.Weather=Combat
+atavism.plugin_dep.Chat=Proxy
+atavism.plugin_dep.Auction=Inventory
+atavism.plugin_dep.Bonus=
+atavism.plugin_dep.Achievements=
+atavism.plugin_dep.Ranking=

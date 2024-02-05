@@ -1,0 +1,1 @@
+All rights reserved to Atavism© and Dragonsan Studios Sp. z o.o.©

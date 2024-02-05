@@ -1,0 +1,58 @@
+.custom-state-active { background: #eee; }
+
+.left{
+    float:middle;
+}
+.right{
+    float:middle;
+}
+
+#CraftingElements{
+    float:middle;
+    width:900px;
+    border:1px solid red;
+    height:200px;
+    margin:10px;
+    clear:both;
+}
+
+.imgWrap {
+  position: relative;
+  width:200;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+#box1{
+    float:middle;
+    width:50px;
+    border:1px solid green;
+    height:50px;
+    margin:10px;
+    clear:both;
+}
+span{
+    float:left;
+    margin:3px;
+    border:1px solid #0CF;
+}

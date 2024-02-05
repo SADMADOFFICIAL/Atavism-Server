@@ -1,0 +1,167 @@
+ATAVISM End User License Agreement (Atavism E.U.L.A. / Atavism EULA / EULA)
+ 
+ By installing or using the software, you and the entity or company that 
+ uses the software ("you") are unconditionally consenting to be bound by 
+ and are becoming a party to this license agreement ("Agreement"). Your 
+ use of the software also shall constitute assent to the terms of this 
+ Agreement. If you do not unconditionally agree to all of the terms of 
+ this agreement you will not have any right to use the Software. 
+ Dragonsan Studios Sp. z o.o. ("Dragonsan Studios") acceptance 
+ is expressly conditioned upon your assent to all the terms and conditions 
+ of this Agreement, to the exclusion of all other terms. If these terms are 
+ considered an offer, acceptance is expressly limited to these terms. 
+ 
+1.	License. Subject to your full compliance with all the terms and 
+    conditions of this Agreement, Dragonsan Studios grants you 
+    non-transferable, non-sublicensable, nonexclusive license to use 
+    the software you will receive through download (the Atavism Client,
+    Atavism Server, Atavism Editor), and the accompanying documentation
+    (collectively "Software") in accordance with the accompanying documentation. 
+    
+2.	Refunds: Except to the extent required by law, all payments and fees 
+    are non-refundable under all circumstances.
+    
+3.	Restrictions. You shall not, nor permit anyone else to, directly or 
+    indirectly: (i) distribute the Software; (ii) reverse engineer, disassemble,
+    decompile or otherwise attempt to discover the source code or structure,
+    sequence, and organization of all or any part of the Software (except that 
+    this restriction shall not apply to the limited extent restrictions on 
+    reverse engineering are prohibited by applicable local law); or (iii) rent 
+    or lease the Software. You shall maintain and not remove or obscure any
+    proprietary notices on the Software (with an exception for Atavism Client),
+    and shall reproduce such notices exactly on all permitted copies of the 
+    Software. As between the parties, Dragonsan Studios owns all title, 
+    ownership rights, and intellectual property rights in and to the Software,
+    and any copies or portions thereof. You understand that Dragonsan Studios 
+    or its licensors may modify or discontinue offering the Software at any time.
+    This Agreement does not give you any rights not expressly and unambiguously
+    granted herein. 
+    
+4.	Intellectual Property; Content. As a condition to your use of the Software,
+    you represent, warrant and covenant that you will not use the Software: 
+    (i) to infringe the intellectual property or proprietary rights, 
+    or rights of publicity or privacy, of any third party; (ii) to violate 
+    any applicable law, statute, ordinance or regulation; (iii) to disseminate,
+    transfer or store information or materials in any form or format ("Content")
+    that are harmful, threatening, abusive, harassing, tortuous, defamatory,
+    libelous, or that otherwise violate any law or right of any third party;
+    (iv) to disseminate any software viruses or any other computer code, 
+    files or programs that may interrupt, destroy or limit the functionality 
+    of any computer software or hardware or telecommunications equipment,
+    or violate the security of any computer network; or (v) to run Maillist,
+    Listserv, "bots," "robots," any form of auto-responder, or "spam," or any 
+    processes that run or are activated while you are not logged in. You, 
+    not Dragonsan Studios remain solely responsible for all Content that you 
+    upload, post, e-mail, transmit, or otherwise disseminate using, or in 
+    connection with, the Software. You acknowledge that all Content you access
+    through the use of the Software is accessed at your own risk and you will 
+    be solely responsible for any damage or liability to any party resulting 
+    from such access. 
+    
+5.	Warranty Disclaimer. The software is provided "as is" and “as available” 
+    basis “with all faults”. Dragonsan Studios makes no warranty of any kind, 
+    express or implied, and Dragonsan Studios expressly disclaims all warranties,
+    including without limitation, any implied warranties of merchantability,
+    fitness for a particular purpose, and non-infringement. Further, Dragonsan
+    Studios does not warrant: ((i) results of use; (ii); that the software 
+    is bug-free or error-free; (iii) that its use will be uninterrupted; 
+    (iv) that the Software will meet your requirements; (v) that any defects 
+    in the Software can or will be corrected; (vi) that Software is or will be 
+    in compliance with a platform manufacturer’s rules or requirements; 
+    (vii) that a platform manufacturer will approve any of your products 
+    or other products created using the Software; or (viii) that a platform 
+    manufacturer will not revoke approval of any product or other products 
+    created using the Software for any or no reason. This disclaimer of 
+    warranty constitutes an essential part of this agreement. All the 
+    foregoing disclaimers also apply in full with respect to 
+    Dragonsan Studios licensors, suppliers, distributors, contractors, 
+    and agents. Because some states do not allow the exclusion of implied 
+    warranties, the foregoing limitations of liability shall apply only to
+    the full extent permitted by law.
+    
+6.	Limitation of Remedies and Damages. Under no circumstances and under 
+    no legal theory, including, but not limited to, tort, contract, negligence, 
+    strict liability, or otherwise, shall Dragonsan Studios be liable to you 
+    or any other person (i) for any indirect, special, incidental, or 
+    consequential damages of any character or (ii) for any matter beyond its 
+    reasonable control. Dragonsan Studios liability for damages of any kind 
+    whatsoever arising out of this agreement is limited to the lesser of the 
+    total fees paid by you to Dragonsan Studios (if any) or $10 (U.S.), 
+    except where not permitted by applicable law, in which case 
+    Dragonsan Studios liability shall be limited to the minimum amount 
+    permitted by such applicable law. All the foregoing limitations shall 
+    apply even if Dragonsan Studios has been informed of the possibility 
+    of such damages. All the foregoing limitations also apply with respect 
+    to Dragonsan Studios suppliers, licensors, distributors, contractors, 
+    and agents. Because Some states do not allow the exclusion or limitation 
+    of incidental or consequential damages, the foregoing limitations of 
+    liability shall apply only to the full extent permitted by law.
+    
+7.	Indemnity. You agree that Dragonsan Studios and its licensors, distributors,
+    contractors, and agents shall have no liability whatsoever for any use 
+    you make of the Software. You shall indemnify and hold harmless 
+    Dragonsan Studios and its licensors, suppliers, distributors, contractors, 
+    and agents from any claims, damages, liabilities, costs, and fees (including
+    reasonable attorney fees) arising from your use of the Software as well 
+    as from your failure to comply with any term of this Agreement. To the 
+    maximum extent permitted by applicable law, you hereby release, and waive 
+    all claims against, Dragonsan Studios and its licensors, suppliers, 
+    employees, and agents from any, and all liability for claims, damages 
+    (actual and consequential), costs, and expenses (including litigation 
+    costs and attorneys' fees) of every kind and nature, arising out of 
+    or in any way connected with the use of the Software. 
+    
+8.	Termination. This Agreement shall continue until terminated as outlined
+    in this section. You may terminate this Agreement at any time. Your rights 
+    under this Agreement will terminate automatically without notice from 
+    Dragonsan Studios if you fail to comply with any term(s) of this Agreement, 
+    including any attempt to transfer a copy of the Software to another party 
+    except as provided in this Agreement. Upon termination, the Agreement 
+    granted hereunder shall terminate and you shall immediately discontinue 
+    all use of the Software, but the terms of this Agreement will otherwise 
+    remain in effect. 
+    
+9.	Export Law Assurances. In connection with the Software, you agree to comply 
+    with all export laws and restrictions and regulations of the Department of 
+    Commerce, the United States Department of Treasury Office of Foreign Assets
+    Control ("OFAC"), or other the United States or foreign agency or authority,
+    and you agree not to export or allow the export or re-export of the Software
+    in violation of any such restrictions, laws or regulations. By using the 
+    Software, you agree to the foregoing and represent and warrant that you are 
+    not located in, under the control of, or a national or resident of any 
+    restricted country. 
+    
+10.	Governing Law and Jurisdiction. You agree that this Agreement will be deemed 
+    to have been made and executed in Poland, and any dispute will be resolved 
+    in accordance with the laws of Poland excluding that body of law related 
+    to choice of laws. Any action or proceeding brought to enforce the terms 
+    of this Agreement or to adjudicate any dispute must be brought in the Court 
+    in Poland. You agree to the exclusive jurisdiction and venue of this court. 
+    You waive any claim of inconvenient forum and any right to a jury trial. 
+    The Convention on Contracts for the International Sale of Goods will not 
+    apply. Any law or regulation which provides that the language of a contract 
+    shall be construed against the drafter will not apply to this Agreement.
+    
+11.	Class Action Waiver. You agree not to bring or participate in a class or 
+    representative action, private attorney general action, or collective 
+    arbitration related to the Licensed Technology or this Agreement. You also 
+    agree not to seek to combine any action or arbitration related to the 
+    Software or this Agreement with any other action or arbitration without the 
+    consent of all parties to this Agreement and all other actions or arbitrations.
+    
+12.	Miscellaneous. No agency, partnership, joint venture, or employment is created
+    as a result of this Agreement and you do not have any authority of any kind 
+    to bind Dragonsan Studios in any respect whatsoever. The failure of either 
+    party to exercise in any respect any right provided for herein shall not be 
+    deemed a waiver of any further rights hereunder. If any provision of this 
+    Agreement is found to be unenforceable or invalid, that provision shall be 
+    limited or eliminated to the minimum extent necessary so that this Agreement 
+    shall otherwise remain in full force and effect and enforceable. This 
+    Agreement is not assignable, transferable, or sublicensable by you except 
+    with Dragonsan Studios prior written consent. Dragonsan Studios may transfer, 
+    assign or delegate this Agreement and its rights and obligations without 
+    consent. Both parties agree that this Agreement is the complete and exclusive 
+    statement of the mutual understanding of the parties and supersedes and cancels 
+    all previous written and oral agreements, communications, and other understandings 
+    relating to the subject matter of this Agreement and, except as otherwise 
+    provided herein, that all modifications must be in a writing signed by both parties.

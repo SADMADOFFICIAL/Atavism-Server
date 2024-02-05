@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="error" name="AuthServer" packages="">
+  <Appenders>
+    <RollingFile name="RollingFile" fileName="./../logs/master/authentication.log"
+                 filePattern="./../logs/master/authentication-%i.log.gz"
+                 append="false">
+      <PatternLayout>
+        <Pattern>%-5p [%d{ISO8601}] %-13c{1.} %-20t %m%n </Pattern>
+      </PatternLayout>
+      <Policies>
+        <SizeBasedTriggeringPolicy size="50 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="20">
+       <fileIndex>min</fileIndex>
+     <min>1</min>
+      <compressionLevel>1</compressionLevel>
+      </DefaultRolloverStrategy>
+    </RollingFile>
+    <RollingFile name="RollingFileError" fileName="./../logs/master/error.log"
+                 filePattern="./../logs/master/error-%i.log.gz">
+      <PatternLayout>
+        <Pattern>%-5p [%d{ISO8601}] %-13c{1.} %-20t %m%n </Pattern>
+      </PatternLayout>
+      <Policies>
+        <SizeBasedTriggeringPolicy size="50 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="20">
+      <fileIndex>min</fileIndex>
+      <min>1</min>
+      <compressionLevel>1</compressionLevel>
+      </DefaultRolloverStrategy>
+    </RollingFile>
+  </Appenders>
+  <Loggers>
+    <Root level="all">
+      <AppenderRef ref="RollingFile"/>
+      <AppenderRef ref="RollingFileError" level="error"/>
+    </Root>
+  </Loggers>
+</Configuration>
+
